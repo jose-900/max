@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web site modelo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" class="logo">JRA Software </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#course">SOBRE</a></li>
+                    <li><a href="#technology">SERVIÇOS</a></li>
+                    <li><a href="#facilities">BLOG</a></li>
+                    <li><a href="#fooder">CONTATO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Deixe o Mundo Descobrir  Você</h1>
+            <p>Adquirir um site para sua empresa e seu negocio esta muito facil agora. Você só precisa entrar em contato pelas redes sociais
+                <br> e iremos mostrar todas as opções.
+            </p>
+             <a href="https://github.com/devalves2021" class="hero-btn">Visite-nos para saber mais</a> 
+        </div>
+    </section>
+        <!----Course---->
+    <section class="course" id="course">
+        <h1>O que oferecemos</h1>
+        <p>Sites e App para seu negocio, seja ele qual for.</p>
+        <div class="row">
+            <div class="course-col">
+            <h3>Site e App</h3>
+            <p>Desenvolvemos usando framework e software de ultima geração para 
+                atender suas necessidades e apresentar um execelente produto.
+            </p>
+            </div>
+            <div class="course-col">
+            <h3>E-commerce</h3>
+            <p>Desenvolvemos e-commerce usamos o paypal como forncedor das operações
+                de pagamento de cartão de credito e debito.Criamos o pix para pagamento
+                    usando framework de ultima geração.
+            </p>
+            </div>
+            <div class="course-col">
+            <h3>API para Banco de Dados</h3>
+            <p>Desenvolvemos API para sistemas de restaurante com cardapio e 
+                atendimento digital. Nossa Api atende a qualquer segmento de vendas
+                do mercado.
+            </p>
+            </div>
+        </div>
+
+    </section>
+<!--javaScript para togge menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    <!--campus-->
+    <section class="technology" id="technology">
+        <div class="contentBx">
+            <h1 class="heading">Usamos tecnologia de ponta</h1>
+            <p class="text">Com foco em inovação, usamos as melhores tecnologias do mercado, atuando no desenvolvimento de sistemas
+                e Apps Android. O mercado consumidor mudou. E nós da Jra Software atendenmos a essa mudança.</p>
+        </div>
+        <div class="imgBx">
+            <img src="images/tech.png">
+        </div>
+    </section>
+    <!--facilidades-->
+    <section class="facilities" id="facilities">
+        <h1>Todas facilidades</h1>
+            <p>Com foco em inovação, usamos as melhores tecnologias do mercado, atuando no desenvolvimento de sistemas
+                e Sites e Apps Android</p>
+         <div class="row">
+             <div class="facilities-col">
+                 <img src="images/pixel.png">
+                <h3>Atendendo a solução</h3>
+                <p>Com foco em inovação, usamos as melhores tecnologias do mercado,<br>
+                    Consulte alguns modelos na Google Play Stor - App loja 7777|<br>
+                    App Rota779 | Travelsp | usamos as melhores tecnologias do mercado<br>
+                    atuando no desenvolvimento de Apps by Android</p>
+             </div>
+             <div class="facilities-col">
+                <img src="images/hd.png">
+               <h3>Atendendo a solução</h3>
+               <p>Com foco em inovação, usamos as melhores tecnologias do mercado,<br>  
+                consulte site faça um teste https://telemarketingplus.netlify.app
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+               <h3>Atendendo a solução</h3>
+               <p>Com foco em inovação, usamos as melhores tecnologias do mercado,<br> 
+                consulte nossa Api para Banco de Dados Postgres , Sql Server , Oracle</p>
+            </div>
+         </div>
+    </section>
+    <!--chamadas de rede social
+    <section class="cta">
+        <h1>Contate-nos em nossas redes sociais</h1>
+        <a href="" class="hero-btn">Visite-nos para saber mais</a> 
+    </section>
+    -->
+    <!---footer-->
+    <section class="footer" id="fooder">
+        <h4>Sobre nós</h4>
+        <h4>Desenvolvemos usando framework de ultima geração para<br> 
+            atender suas necessidades e apresentar um execelente produto.</h4>
+            <div class="icons">
+                <a href="https://www.facebook.com/"><img src="facebook.png"></a>
+                <a href="https://www.twitter.com"><img src="twitter.png"></a>
+                <a href="https://linkedin.com"><img src="linkedin.png"></a>
+             </div>    
+        <h5>Feito pra vocês com <i class="fa fa-heart-o"></i> atendendo a todos.</h5>
+    </section>
+</body>
+</html>
