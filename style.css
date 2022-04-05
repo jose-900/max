@@ -171,9 +171,12 @@ h3{
     background: #3f8ffc;
     width: 100%;
     padding: 100px;
+    margin:auto;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+ 
 }
 .technology .contentBx
 {
@@ -193,10 +196,11 @@ h3{
 {
     max-width: 100%;
 }
+
 @media(max-width:991px){
     .technology
     {
-        padding: 30px;
+        padding: 1px;
         padding-top: 300px;
         justify-content: center;
         flex-direction: column;
@@ -271,6 +275,11 @@ h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: left; 
 }
 .footer ul
 {
