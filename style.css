@@ -177,6 +177,7 @@ h3{
     justify-content: center;
     align-items: center;
  
+ 
 }
 .technology .contentBx
 {
@@ -204,11 +205,12 @@ h3{
         padding-top: 300px;
         justify-content: center;
         flex-direction: column;
+       
     }
-    .technology .imgBx
+    .technology .imgBx .img
     {
         margin-top: 40px;
-        max-width: 350px;
+        max-width: 250px;
      
     }
 
