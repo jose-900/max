@@ -193,6 +193,22 @@ h3{
 {
     max-width: 100%;
 }
+@media(max-width:991px){
+    .technology
+    {
+        padding: 30px;
+        padding-top: 300px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .technology .imgBx
+    {
+        margin-top: 40px;
+        max-width: 350px;
+     
+    }
+
+}
 
 .facilities{
     background:#162c3b;
