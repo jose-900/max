@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sintetizador de voz</title>
+    <link rel="stylesheet" href="style2.css"  />
+    <script>
+      function speak() {
+        var text = document.getElementById("text").value;
+        var synth = window.speechSynthesis;
+        var voices = synth.getVoices();
+        var utterance = new SpeechSynthesisUtterance(text);
+        synth.speak(utterance);
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Sintetizador de voz</h1>
+    <textarea id="text"></textarea><br>
+    <button onclick="speak()">Ler Texto</button>
+  </body>
+</html>
